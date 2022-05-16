@@ -11,7 +11,7 @@ Jingxue Bi. Supplementary Open Dataset for WiFi Fingerprint-based Indoor Localiz
 # **4 Files**<br>
 &emsp;&emsp;Three folders denote 3 buildings, CETC331, HCXY, and SYL.<br>
 ## **(1)Two csv files are in the CETC331 folder**<br>
-&emsp;&emsp; <font color="red"> Training_CETC331.csv </font>: Data used for training models in the CETC331 building.<br>
+&emsp;&emsp;<font color="red">Training_CETC331.csv</font>: Data used for training models in the CETC331 building.<br>
 &emsp;&emsp;<font color="red">Testing_CETC331.csv</font>:Data used to test models in the CETC331 building. At each TP, 10 samples are stored in the sheet.<br>
 ## **(2) Six csv files are in the HCXY folder**<br>
 &emsp;&emsp;<font color="Blue">Training_HCXY_All_30.csv</font>: Data used for training models in the HCXY building with all detected MACs. At each RP, there are 30 samples stored in the sheet.<br>
@@ -29,7 +29,7 @@ Jingxue Bi. Supplementary Open Dataset for WiFi Fingerprint-based Indoor Localiz
 &emsp;&emsp;<font color=Blue>Testing_SYL_AP.csv</font>:Data used to test models in the SYL building with all MACs of pre-installed APs. At each TP, 10 samples are stored in the sheet.<br>
 # **5 Attribute Information**<br>
 &emsp;&emsp;Buildings are in different cities, MACs in different buildings are distinct. Suppose tha the number of MACs in a building is n.<br>
-&emsp;&emsp; <font color=Blue> Attribute value 001 (**MAC001**) </font>: RSS value for MAC001. Negative integer values from -104 to 0 and +100. Positive value 100 used if MAC001 was not detected.<br>
+&emsp;&emsp; <font color=Blue>Attribute value 001 (**MAC001**)</font>: RSS value for MAC001. Negative integer values from -104 to 0 and +100. Positive value 100 used if MAC001 was not detected.<br>
 …<br>
 &emsp;&emsp;<font color=Blue>Attribute value n (**MACn**)</font>: RSS value for MAC00n. Negative integer values from -104 to 0 and +100. Positive value 100 used if MAC001 was not detected.<br>
 &emsp;&emsp;<font color=Blue>Attribute value n+1 (**ECoord**)</font>: East coordinate in meters in the local coordinate system.<br>
