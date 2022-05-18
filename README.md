@@ -30,7 +30,7 @@ Jingxue Bi. Supplementary Open Dataset for WiFi Fingerprint-based Indoor Localiz
 &emsp;&emsp;<font color=Blue>_Testing_SYL_AP.csv_</font>:Data used to test models in the SYL building with all MACs of pre-installed APs. At each TP, 10 samples are stored in the sheet.<br>
 ## **(4) The xlsx file**<br>
 &emsp;&emsp;_Information of pre-installed APs.xlsx_: In this xlsx file, there are 3 sheets. They are named as CETC331, HCXY, and SYL in order, 26 dual-band APs for CETC331, 56 single-band APs for HCXY, and 23 dual-band APs for SYL. Locations of APs, the numbered MAC addresses, frequency in MHz can be found in the xlsx file. The following figure is an example of information of pre-installed APs in the SYL building.<br>
-![image](https://github.com/renwudao24/SODIndoorLoc/blob/main/Information%20of%20pre-installed%20APs.png)
+![image](https://github.com/renwudao24/SODIndoorLoc/blob/main/images/Information%20of%20pre-installed%20APs.png)
 # **5 Attribute Information**<br>
 &emsp;&emsp;Buildings are in different cities, MACs in different buildings are distinct. Suppose tha the number of MACs in a building is n.<br>
 &emsp;&emsp; <font color=Blue>_Attribute value 001 (**MAC001**)_</font>: RSS value for MAC001. Negative integer values from -104 to 0 and +100. Positive value 100 used if MAC001 was not detected.<br>
