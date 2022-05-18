@@ -9,7 +9,7 @@
 # **3 Cite Request**<br>
 Jingxue Bi. Supplementary Open Dataset for WiFi Fingerprint-based Indoor Localization. https://github.com/renwudao24/SODIndoorLoc.<br>
 # **4 Files**<br>
-&emsp;&emsp;Three folders in the './SODIndoorLoc/' path denote 3 buildings, CETC331, HCXY, and SYL. In addition, an Excel document and a CAD document within 3 buildings are provided.<br>
+&emsp;&emsp;There are 4 folders in the './SODIndoorLoc/' path, where 3 folders denote 3 buildings, CETC331, HCXY, SYL, the other folder stores relavant figures. In addition, an Excel document and a CAD document within 3 buildings are provided.<br>
 ## **(1)Two csv files are in the CETC331 folder**<br>
 &emsp;&emsp;<font color="red">_Training_CETC331.csv_</font>: Data used for training models in the CETC331 building. The following figure is a fragment of the Training_CETC331.csv file.<br>
 ![image](https://github.com/renwudao24/SODIndoorLoc/blob/main/images/Training_CETC331.png)
