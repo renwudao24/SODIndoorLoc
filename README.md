@@ -11,8 +11,10 @@ Jingxue Bi. Supplementary Open Dataset for WiFi Fingerprint-based Indoor Localiz
 # **4 Files**<br>
 &emsp;&emsp;Three folders in the './SODIndoorLoc/' path denote 3 buildings, CETC331, HCXY, and SYL. In addition, an Excel document and a CAD document within 3 buildings are provided.<br>
 ## **(1)Two csv files are in the CETC331 folder**<br>
-&emsp;&emsp;<font color="red">_Training_CETC331.csv_</font>: Data used for training models in the CETC331 building.<br>
+&emsp;&emsp;<font color="red">_Training_CETC331.csv_</font>: Data used for training models in the CETC331 building. The following figure is a fragment of the Training_CETC331.csv file.<br>
+
 &emsp;&emsp;<font color="red">_Testing_CETC331.csv_</font>:Data used to test models in the CETC331 building. At each TP, 10 samples are stored in the sheet.<br>
+
 ## **(2) Six csv files are in the HCXY folder**<br>
 &emsp;&emsp;<font color="Blue">_Training_HCXY_All_30.csv_</font>: Data used for training models in the HCXY building with all detected MACs. At each RP, there are 30 samples stored in the sheet.<br>
 &emsp;&emsp;<font color="Blue">_Training_HCXY_AP_30.csv_</font>: Data used for training models in the HCXY building with MACs of pre-installed APs. At each RP, there are 30 samples stored in the sheet.<br>
@@ -28,8 +30,8 @@ Jingxue Bi. Supplementary Open Dataset for WiFi Fingerprint-based Indoor Localiz
 &emsp;&emsp;<font color=Blue>_Testing_SYL_All.csv_</font>:Data used to test models in the SYL building with all detected MACs. At each TP, 10 samples are stored in the sheet.<br>
 &emsp;&emsp;<font color=Blue>_Testing_SYL_AP.csv_</font>:Data used to test models in the SYL building with all MACs of pre-installed APs. At each TP, 10 samples are stored in the sheet.<br>
 ## **(4) The xlsx file**<br>
-&emsp;&emsp;_Information of pre-installed APs.xlsx_: In this xlsx file, there are 3 sheets. They are named as CETC331, HCXY, and SYL in order, 26 dual-band APs for CETC331, 56 single-band APs for HCXY, and 23 dual-band APs for SYL. Locations of APs, the numbered MAC addresses, frequency in MHz can be found in the xlsx file.<br>
-![image](https://github.com/renwudao24/SODIndoorLoc/blob/9ddeac018977699f7b9b33cb18f9e5879c6a050f/Training_CETC331.png)
+&emsp;&emsp;_Information of pre-installed APs.xlsx_: In this xlsx file, there are 3 sheets. They are named as CETC331, HCXY, and SYL in order, 26 dual-band APs for CETC331, 56 single-band APs for HCXY, and 23 dual-band APs for SYL. Locations of APs, the numbered MAC addresses, frequency in MHz can be found in the xlsx file. The following figure is an example of information of pre-installed APs in the SYL building.<br>
+
 # **5 Attribute Information**<br>
 &emsp;&emsp;Buildings are in different cities, MACs in different buildings are distinct. Suppose tha the number of MACs in a building is n.<br>
 &emsp;&emsp; <font color=Blue>_Attribute value 001 (**MAC001**)_</font>: RSS value for MAC001. Negative integer values from -104 to 0 and +100. Positive value 100 used if MAC001 was not detected.<br>
