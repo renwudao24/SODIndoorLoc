@@ -12,7 +12,7 @@ Jingxue Bi. Supplementary Open Dataset for WiFi Fingerprint-based Indoor Localiz
 &emsp;&emsp;Three folders in the './SODIndoorLoc/' path denote 3 buildings, CETC331, HCXY, and SYL. In addition, an Excel document and a CAD document within 3 buildings are provided.<br>
 ## **(1)Two csv files are in the CETC331 folder**<br>
 &emsp;&emsp;<font color="red">_Training_CETC331.csv_</font>: Data used for training models in the CETC331 building. The following figure is a fragment of the Training_CETC331.csv file.<br>
-![image](https://github.com/renwudao24/SODIndoorLoc/blob/main/Training_CETC331.png)
+![image](https://github.com/renwudao24/SODIndoorLoc/blob/main/images/Training_CETC331.png)
 &emsp;&emsp;<font color="red">_Testing_CETC331.csv_</font>:Data used to test models in the CETC331 building. At each TP, 10 samples are stored in the sheet.<br>
 ## **(2) Six csv files are in the HCXY folder**<br>
 &emsp;&emsp;<font color="Blue">_Training_HCXY_All_30.csv_</font>: Data used for training models in the HCXY building with all detected MACs. At each RP, there are 30 samples stored in the sheet.<br>
