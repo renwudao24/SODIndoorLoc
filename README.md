@@ -7,7 +7,7 @@
 &emsp;&emsp;School of Surveying and Geo-Informatics<br>
 &emsp;&emsp;Shandong Jianzhu University<br>
 # **3 Cite Request**<br>
-Jingxue Bi. Supplementary Open Dataset for WiFi Fingerprint-based Indoor Localization. https://github.com/renwudao24/SODIndoorLoc.<br>
+Bi, J., Wang, Y., Yu, B. et al. Supplementary open dataset for WiFi indoor localization based on received signal strength. Satell Navig 3, 25 (2022). https://doi.org/10.1186/s43020-022-00086-y<br>
 # **4 Files**<br>
 &emsp;&emsp;There are 4 folders in the './SODIndoorLoc/' path, where 3 folders denote 3 buildings, CETC331, HCXY, SYL, the other folder stores relavant figures. In addition, an Excel document and a CAD document within 3 buildings are provided in the './SODIndoorLoc/' path.<br>
 ## **(1)Two csv files are in the CETC331 folder**<br>
